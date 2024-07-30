@@ -1,0 +1,158 @@
+<class 'netCDF4._netCDF4.Dataset'>
+root group (NETCDF4 data model, file format HDF5):
+    institution: DGFI-TUM
+    source: Open Altimeter Database (OpenADB)
+    mission: sentinel3ao
+    long_mission: Sentinel-3A
+    cycle: 025
+    pass_number: 0016
+    ellipsoid: topex
+    ellipsoid_axis: 6378136.3
+    ellipsoid_flattening: 0.0033528131778969
+    first_meas_time: 2017-11-24 10:18:01
+    last_meas_time: 2017-11-24 10:19:36
+    creation_date: 2024-07-26 17:11:03
+    dimensions(sizes): time(73)
+    variables(dimensions): float64 jday.00(time), float64 glon.00(time), float64 glat.00(time), float32 ssh.55(time), float32 stdalt.06(time), float32 swh.06(time), float64 mssh.05(time), float32 otide.15(time), float32 ltide.15(time), float32 distance.00(time), uint8 sflag.55(time), uint8 oflags.00(time), uint8 iflags.06(time)
+    groups: 
+<class 'netCDF4._netCDF4.Variable'>
+float32 ssh.55(time)
+    units: m
+    long_name: based on ALES and DTU15
+    standard_name: Sea Surface Heights (SSH)
+    nan: 0
+    valid_range: [38.921 42.175]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 ssh.55(time)
+    units: m
+    long_name: based on ALES and DTU15
+    standard_name: Sea Surface Heights (SSH)
+    nan: 0
+    valid_range: [38.921 42.175]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float64 jday.00(time)
+    units: d
+    standard_name: Julian day epoch 2000.0 (2000-01-01 12:00:00 UTC)
+    nan: 0
+    valid_range: [6536.92918981 6536.93028935]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float64 glon.00(time)
+    units: deg
+    source: NT-SGDR // lon
+    standard_name: Longitude
+    nan: 0
+    valid_range: [6.858188 9.992711]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float64 glat.00(time)
+    units: deg
+    source: NT-SGDR // lat
+    standard_name: Latitude
+    nan: 0
+    valid_range: [53.50633  58.939254]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 stdalt.06(time)
+    units: Normalised power units
+    source: ALES+ Retracker
+    standard_name: Fitting error on the normalised leading edge
+    nan: 0
+    valid_range: [0.019 2.601]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 swh.06(time)
+    source: ALES+ Retracker
+    nan: 73
+    valid_range: [nan nan]
+    long_name: Ku-band significant wave height
+    standard_name: Significant Wave Height
+    units: m
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float64 mssh.05(time)
+    source: DTU
+    nan: 0
+    valid_range: [38.848 41.813]
+    long_name: DTU15
+    standard_name: Mean Sea Surface
+    units: m
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 otide.15(time)
+    units: m
+    long_name: EOT11a
+    standard_name: Ocean Tide Correction
+    nan: 0
+    valid_range: [-0.59   0.254]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 ltide.15(time)
+    units: m
+    long_name: EOT11a
+    standard_name: Ocean load tide correction
+    nan: 0
+    valid_range: [-0.005  0.001]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 distance.00(time)
+    units: km
+    source: NASA GSFC
+    standard_name: Distance to Coast
+    nan: 0
+    valid_range: [-0.465 55.754]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+uint8 sflag.55(time)
+    units: -
+    long_name: based on ALES and DTU15
+    standard_name: Geophysical Corrections Quality Flags of Sea Surface Heights (SSH)
+    nan: 0
+    valid_range: [  0 208]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 255 ignored
+<class 'netCDF4._netCDF4.Variable'>
+uint8 oflags.00(time)
+    units: -
+    source: not set
+    standard_name: Orbit flags
+    nan: 0
+    valid_range: [0 0]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 255 ignored
+<class 'netCDF4._netCDF4.Variable'>
+uint8 iflags.06(time)
+    units: -
+    long_name: ALES+ Retracker
+    standard_name: Instrument flags
+    nan: 0
+    valid_range: [0 8]
+unlimited dimensions: 
+current shape = (73,)
+filling on, default _FillValue of 255 ignored
